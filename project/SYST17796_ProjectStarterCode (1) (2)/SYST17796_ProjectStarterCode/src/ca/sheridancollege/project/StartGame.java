@@ -15,8 +15,8 @@ import java.util.Scanner;
  */
 public class StartGame extends Game {
 
-    private final HumanPlayer player1;
-    private final HumanPlayer player2;
+    private final HumanPlayer player1;    //First Player
+    private final HumanPlayer player2;    //Second Player
     private int roundsWonByPlayer1;
     private int roundsWonByPlayer2;
 
