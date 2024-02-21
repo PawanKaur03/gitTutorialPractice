@@ -18,7 +18,7 @@ public class StartGame extends Game {
     private final HumanPlayer player1;
     private final HumanPlayer player2;
     private int roundsWonByPlayer1;
-    private int roundsWonByPlayer22; //Hello it is my first change to see git history
+    private int roundsWonByPlayer2;
 
     public StartGame(HumanPlayer p1, HumanPlayer p2, String name) {
         super(name);
