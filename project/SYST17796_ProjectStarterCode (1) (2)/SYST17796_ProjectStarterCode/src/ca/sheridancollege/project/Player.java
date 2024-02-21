@@ -14,7 +14,16 @@ package ca.sheridancollege.project;
  */
 public abstract class Player {
 
-    private String name; //the unique name for this player
+    private String name;
+    private String level;//the unique name for this player
+
+    public String getLevel() {
+        return level;
+    }
+
+    public void setLevel(String level) {
+        this.level = level;
+    }
 
     /**
      * A constructor that allows you to set the player's unique ID
